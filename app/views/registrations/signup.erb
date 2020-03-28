@@ -1,10 +1,12 @@
 <h1>Sign Up Below:</h1>
-<form action="/registrations" method="post">
-  <h2><label for="name">Name</label></h2>
-  <input type="text" id="name" name="name">
-  <h2><label for="email">E-mail</label></h2>
-  <input type="text" id="email" name="email">
-  <h2><label for="password">Password</label></h2>
-  <input type="password" id="password" name="password">
-  <p><input type="submit" id="submit" value="Sign Up"></p>
+<form action='/registrations' method='post'>
+  <h2>User</h2>
+  <label for="user_name">Name</label><br>
+  <input id="name" type="text" name="user[name]" /><br>
+  <label for="user_email">Email</label><br>
+  <input id="email" type="text" name="user[email]" /><br>
+  <label for="user_password">Password</label><br>
+  <input id="password" type="text" name="user[password]" /><br><br>
+  <input type="submit" value="Sign Up">
+  
 </form>
